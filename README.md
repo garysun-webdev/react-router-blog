@@ -11,3 +11,12 @@ This application is using Stephen's starter to configure the basic development e
 > npm install
 > npm start
 ```
+
+### Learning
+ - lifecycle functions
+ ```JavaScript
+ componentDidMount() {
+ 	this.props.fetchPosts();
+ }
+ ```
+
